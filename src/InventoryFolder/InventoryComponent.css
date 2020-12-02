@@ -1,0 +1,23 @@
+.inventoryContainer {
+    display: inline-flex;
+    flex-direction: column;
+    border: solid 3px green;
+    background-color: lightblue;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    text-align: center;
+}
+.dealsText {
+    display: flex;
+    flex-direction: column;
+    background-color: indianred;   
+    text-align: center;
+}
+.inventoryCards {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
